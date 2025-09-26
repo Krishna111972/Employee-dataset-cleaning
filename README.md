@@ -10,51 +10,42 @@ The goal was to transform the raw dataset into a clean, structured, and analysis
 🔹 Handling Null & Missing Values
 
 Identified columns with missing data
-
 Filled or removed null values depending on the context
 
 🔹 Handling Outliers (💰 Salary Column)
 
 Detected extreme outliers using IQR & Z-score methods
-
 Removed or corrected unrealistic salary values
 
 🔹 Fixing Data Types
 
 Converted columns to appropriate types (int, float, datetime, category)
-
 Ensured dataset consistency
 
 🔹 Fixing Infinite Values ♾️
 
 Replaced infinite values with NaN or meaningful defaults
-
 Dropped affected records when necessary
 
 🔹 Final Touches ✨
 
-Removed unnecessary columns
-
 Standardized text/categorical fields
-
 Prepared dataset for analysis or ML tasks
 
 🛠️ Tools & Libraries
 
-🐍 Python 3.x
-
+🐍 Python 3
 🔢 NumPy
-
 🐼 Pandas
 
 📂 Project Structure
 employee-dataset-cleaning/
 │-- data/
-│   ├── employee_raw.csv     # Original messy dataset
-│   ├── employee_clean.csv   # Cleaned dataset (final output)
+│   ├── employee_dataset.csv     # Original messy dataset
+│   ├── employee_cleaned_dataset.csv   # Cleaned dataset (final output)
 │
 │-- notebooks/
-│   ├── data_cleaning.ipynb  # Jupyter notebook with step-by-step cleaning
+│   ├── data_cleaning.py  # Jupyter notebook with step-by-step cleaning
 │
 │-- README.md                # Project documentation
 
@@ -62,7 +53,7 @@ employee-dataset-cleaning/
 
 Clone this repository
 
-git clone https://github.com/yourusername/employee-dataset-cleaning.git
+git clone https://github.com/Krishna111972/Employee-dataset-cleaning.git
 cd employee-dataset-cleaning
 
 
